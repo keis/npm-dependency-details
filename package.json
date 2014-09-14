@@ -13,5 +13,8 @@
     "npm-registry-client": "^3.2.1",
     "read-installed": "^3.1.3",
     "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "npmconf": "^2.0.9"
   }
 }
