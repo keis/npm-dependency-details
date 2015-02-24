@@ -28,7 +28,9 @@ function outputTable(details, level) {
 }
 
 npmconf.load({}, function (err, config) {
-    dd(config, process.argv[2], function (err, details) {
+    var options = {config: config};
+
+    dd(options, process.argv[2], function (err, details) {
         var key,
             data;
 
