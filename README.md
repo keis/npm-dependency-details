@@ -5,7 +5,7 @@ out of date.
 
 ## Usage
 
-    var npmConfig = {}; // opts for the npm registry client
-    require('npm-dependency-details')(npmConfig, '/path/to/project', function (err, data) {
+    var npmConfig = {} // opts for the npm registry client
+    require('npm-dependency-details')({config: npmConfig}, '/path/to/project', function (err, data) {
         // do stuff with data
     }
