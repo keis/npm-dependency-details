@@ -21,6 +21,6 @@
   },
   "devDependencies": {
     "npmconf": "^2.0.9",
-    "standard": "^5.1.0"
+    "standard": "^5.3.1"
   }
 }
