@@ -1,6 +1,6 @@
 {
   "name": "npm-dependency-details",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "inspect the versions of depedencies of a module",
   "main": "lib/dependency-details.js",
   "repository": "https://github.com/keis/npm-dependency-details.git",
